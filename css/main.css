@@ -1,0 +1,49 @@
+.title-splash, .text-splash {
+  display: none;
+}
+
+#map {
+  width: 75vw;
+  height: 50vw;
+}
+
+.b-radius {
+  border-radius: 20px;
+}
+
+.b-radius-sm {
+  border-radius: 10px;
+}
+
+.b-none {
+  border: none;
+}
+
+.food-photos {
+  height: 50vw;
+  width: 90vw;
+}
+
+.hide {
+  display: none;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.food-display {
+  height: 140px;
+  width: 140px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  #map {
+    width: 50vw;
+    height: 25vw;
+  }
+}
